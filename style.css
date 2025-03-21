@@ -335,16 +335,177 @@ span img{
     margin: auto;
 }
 
-.awards-section{
+.testimonials-section{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./BG\ \(2\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%; 
+   color: white;
+   display: flex;
+    justify-content: space-evenly;
+    
+  
+}
+
+
+
+.testimonials-text{
+  width: 55%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  line-height: 20px;
+  text-wrap: wrap;
+ text-transform: capitalize;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 15px; 
+   margin-right: 50px;
+   padding-top: 200px;
+ 
+}
+
+  
+  
+
+.testimonials-text img{
+  /* margin-top: 50px; */
+  width: 40%;
+  margin: auto;
+}
+
+
+.testimonials-img{
+  width: 40%;
+  margin: auto ;
+  padding-top: 200px;
+}
+
+.testimonials-img img{
+  width: 60%;
+  margin: auto;
+}
+
+.call-to-action-section{
     width: 100%;
     height: 100vh;
-    background-image: url();
+    background-image: url(./BG\ \(1\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%; 
      color: white;
      display: flex;
      justify-content: space-evenly;
-     
-    
+
 }
+
+.call-to-action-photo{
+    width: 40%;
+     margin: auto; 
+     margin-left: 30px;
+     text-transform: capitalize;
+     padding-bottom: 40px;
+
+}
+
+.call-to-action-img{
+    width: 25%; 
+    margin: auto;
+     display: flex;
+    justify-content: space-evenly;
+    margin-right: 400px;
+    gap: 13px; 
+      
+}
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./BG\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+     color: white;
+     display: flex;
+     justify-content: space-evenly;
+     text-transform: capitalize;
+
+}
+
+.footer-text{
+    width: 40%;
+    margin: auto;
+    margin-left: 90px;
+
+}
+
+.footer-img{
+    width: 50%;
+    margin: auto;
+
+
+}
+
+.footer-img img{
+    width: 60%;
+    /* margin: auto; */
+}
+
+.newsletter-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./BG\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+     color: white;
+     text-transform: capitalize;
+
+}
+
+
+.newsletter-subscription{
+
+        width: 40%;
+       
+        margin: auto;
+        padding-top: 10px;
+        box-shadow: 0px 0px 12px rgb(230, 230, 151);
+        text-align: center;
+
+    
+    
+        
+
+}
+
+
+input{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(230, 230, 151);
+    margin-bottom: 30px;
+}
+
+.newsletter-working-time{
+    width: 80%;
+    margin: auto;
+    display: flex;
+     justify-content: space-evenly;
+     margin-top: 70px;
+     text-transform: capitalize;
+
+ 
+}
+      
+
+     
+
+
+
+  
+  
+ 
